@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#DA00FF"
+    tools:context=".MainActivity">
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/liste"
+        android:text="Liste des livres"
+        android:backgroundTint="#000000"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.103" />
+
+
+    <Button
+        android:id="@+id/supprimer"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:text="Supprimer des livres"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.193" />
+
+    <Button
+        android:id="@+id/modifier"
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000000"
+        android:text="modifier des livres"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308" />
+
+    <Button
+        android:id="@+id/ajouter"
+        android:layout_width="128dp"
+
+        android:layout_height="79dp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Ajouter le Livre"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.958" />
+
+
+    <EditText
+
+        android:id="@+id/titre"
+        android:layout_width="171dp"
+
+        android:layout_height="38dp"
+        android:backgroundTint="@color/teal_200"
+        android:hint="Titre"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.588"></EditText>
+
+    <EditText
+
+        android:id="@+id/auteur"
+        android:layout_width="171dp"
+
+        android:layout_height="38dp"
+        android:backgroundTint="@color/teal_200"
+        android:hint="Auteur"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.669"></EditText>
+
+    <EditText
+
+        android:id="@+id/anne"
+        android:layout_width="171dp"
+
+        android:layout_height="38dp"
+        android:backgroundTint="@color/teal_200"
+        android:hint="Année"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.744"></EditText>
+
+    <EditText
+
+        android:id="@+id/genre"
+        android:layout_width="171dp"
+
+        android:layout_height="38dp"
+        android:backgroundTint="@color/teal_200"
+        android:hint="Genre"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.819"></EditText>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

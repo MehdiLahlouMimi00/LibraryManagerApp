@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/titreA"
+        android:layout_width="226dp"
+        android:layout_height="wrap_content"
+        android:text="Titre" />
+
+    <TextView
+
+        android:id="@+id/auteurA"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/titreA"
+        android:text="Auteur" />
+
+    <TextView
+        android:id="@+id/genreA"
+        android:layout_width="193dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titreA"
+        android:text="Genre" />
+
+    <TextView
+        android:id="@+id/dateA"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titreA"
+        android:layout_toEndOf="@+id/genreA"
+        android:text="Date" />
+
+    <TextView
+        android:id="@+id/idA"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/titreA"
+        android:layout_marginStart="30dp"
+        android:layout_toEndOf="@+id/dateA"
+        android:text="ID" />
+
+
+</RelativeLayout>
